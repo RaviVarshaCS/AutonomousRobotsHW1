@@ -32,7 +32,7 @@ void NumberList::computeNFibonacci(size_t n) {
 void NumberList::copyListIntoMe(NumberList &numList) {
   clear();
   for (int i = 0; i < numList.getSizeOfList(); i++) {
-    addNumberToList(getNumberAt(i));
+    addNumberToList(numList.getNumberAt(i));
   }
 }
 
